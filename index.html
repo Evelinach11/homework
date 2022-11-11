@@ -9,73 +9,75 @@
 </head>
 
 <body>
-    <header id="header">
-        <nav class="header__nav-bar">
-            <div class="header__logo-container">
-                <img id="header-img" src="img/logo.svg" alt="logo wiht almaz">
+    <div class="container">
+        <header id="header">
+            <nav class="header__nav-bar">
+                <div class="header__logo-container">
+                    <img id="header-img" src="img/logo.svg" alt="logo wiht almaz">
+                </div>
+                <ul class="header__nav-link">
+                    <li>
+                        <a href="#">Features</a>
+                    </li>
+                    <li>
+                        <a href="#">About us</a>
+                    </li>
+                    <li>
+                        <a href="#">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <form class="form" action="">
+            <h2 class="form-text">Unique prices</h2>
+            <input placeholder="Enter your email adress" id="email" type="email">
+            <button class="form-button">GET STARTED</button>
+        </form>
+        <main class="main">
+            <div class="main-assortment">
+                <img class="main-assortment__icon" src="img/box.png" alt="box">
+                <p class="main-assortment__text">WIDE ASSORTMENT</p>
             </div>
-            <ul class="header__nav-link">
+            <div class="main-prices">
+                <img class="main-assortment__icon" src="img/mastercard.png" alt="pay card">
+                <p class="main-assortment__text">PLEASANT PRICES</p>
+            </div>
+            <div class="main-shopping">
+                <img class="main-assortment__icon" src="img/pricing.png" alt="price list">
+                <p class="main-assortment__text">CONVENIENT SHOPPING</p>
+            </div>
+            <div class="main-card">
+                <div class="main-card__ring">
+                    <h2 class="main-card__h2">RING</h2>
+                    <span class="main-span">100$</span>
+                    <p class="main-card__text">gold ring 16 size, 585</p>
+                    <button class="main-card__btn">SELECT</button>
+                </div>
+                <div class="main-card__earring">
+                    <h2 class="main-card__h2">EARRING</h2>
+                    <span class="main-span">89$</span>
+                    <p class="main-card__text">silver earring with a crystal</p>
+                    <button class="main-card__btn">SELECT</button>
+                </div>
+                <div class="main-card__chain">
+                    <h2 class="main-card__h2">CHAIN</h2>
+                    <span class="main-span">120$</span>
+                    <p class="main-card__text">gold chain with zirconia</p>
+                    <button class="main-card__btn">SELECT</button>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <ul class="footer-link">
                 <li>
-                    <a href="#">Features</a>
-                </li>
-                <li>
-                    <a href="#">About us</a>
-                </li>
-                <li>
-                    <a href="#">Pricing</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Contact</a>
                 </li>
             </ul>
-        </nav>
-    </header>
-    <form class="form" action="">
-        <h2 class="form-text">Unique prices</h2>
-        <input placeholder="Enter your email adress" id="email" type="email">
-        <button class="form-button">GET STARTED</button>
-    </form>
-    <main class="main">
-        <div class="main-assortment">
-            <img class="main-assortment__icon" src="img/box.png" alt="box">
-            <p class="main-assortment__text">WIDE ASSORTMENT</p>
-        </div>
-        <div class="main-prices">
-            <img class="main-assortment__icon" src="img/mastercard.png" alt="pay card">
-            <p class="main-assortment__text">PLEASANT PRICES</p>
-        </div>
-        <div class="main-shopping">
-            <img class="main-assortment__icon" src="img/pricing.png" alt="price list">
-            <p class="main-assortment__text">CONVENIENT SHOPPING</p>
-        </div>
-        <div class="main-card">
-            <div class="main-card__ring">
-                <h2 class="main-card__h2">RING</h2>
-                <span class="main-span">100$</span>
-                <p class="main-card__text">gold ring 16 size, 585</p>
-                <button class="main-card__btn">SELECT</button>
-            </div>
-            <div class="main-card__earring">
-                <h2 class="main-card__h2">EARRING</h2>
-                <span class="main-span">89$</span>
-                <p class="main-card__text">silver earring with a crystal</p>
-                <button class="main-card__btn">SELECT</button>
-            </div>
-            <div class="main-card__chain">
-                <h2 class="main-card__h2">CHAIN</h2>
-                <span class="main-span">120$</span>
-                <p class="main-card__text">gold chain with zirconia</p>
-                <button class="main-card__btn">SELECT</button>
-            </div>
-        </div>
-    </main>
-    <footer class="footer">
-        <ul class="footer-link">
-            <li>
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Contact</a>
-            </li>
-        </ul>
-        <p class="footer-text"> Copyright 2016, Original Trombones</p>
-    </footer>
+            <p class="footer-text"> Copyright 2016, Original Trombones</p>
+        </footer>
+    </div>
 </body>
 
 </html>
